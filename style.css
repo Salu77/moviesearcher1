@@ -1,0 +1,22 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    height:650px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height:700px;
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url('https://img.pikbest.com/backgrounds/20220119/film-festival-black-style-background_6234454.jpg!w700wp');
+  height: 750px;
+  width: 100%;  
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+
+}
